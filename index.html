@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/svg+xml" href="images/esports-favicon.svg" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -39,7 +40,7 @@
 
         <div class="hero-card">
           <img
-            data-src="images/PhotosCJ/portrait.jpg"
+            data-src="images/PhotosCJ/Me.jpg"
             alt="Photographer portrait"
             class="hero-photo"
           />
@@ -58,9 +59,11 @@
           <button class="filter-btn active" data-filter="all">All</button>
           <button class="filter-btn" data-filter="esports">Esports</button>
           <button class="filter-btn" data-filter="sports">Sports</button>
-          <!--button class="filter-btn" data-filter="events">Events</button-->
+          <button class="filter-btn" data-filter="events">Events</button>
         </div>
-
+        <div class="filter-message" id="filter-message" aria-live="polite">
+          <p>Shhhhh, I need to focus — sports photography is hard. Please try another filter.</p>
+        </div>
         <div class="gallery-grid">
           <article class="card bundle-card" data-category="esports">
             <button class="bundle-preview" type="button" data-bundle="sparkout" aria-label="Open SparkOut bundle slideshow">
@@ -95,15 +98,30 @@
           <article class="card bundle-card" data-category="esports">
             <button class="bundle-preview" type="button" data-bundle="nse-finals" aria-label="Open NSE Finals bundle slideshow">
               <div class="preview-stack">
-                <img data-src="images/nse/P1079980.JPG" alt="Main crew at NSE Event Finals" class="preview-image image-1" />
-                <img data-src="images/nse/P1024097.JPG" alt="Bright stadium lights and audience excitement" class="preview-image image-2" />
-                <img data-src="images/nse/P1024394.JPG" alt="A dramatic moment from the live event" class="preview-image image-3" />
+                <img data-src="images/nse/P1079980.JPG" alt="NSE production crew preparing the stage" class="preview-image image-1" />
+                <img data-src="images/nse/P1024097.JPG" alt="Broadcast setup and lighting for the NSE event" class="preview-image image-2" />
+                <img data-src="images/nse/P1024394.JPG" alt="Behind-the-scenes teamwork at the live production desk" class="preview-image image-3" />
               </div>
               <span class="preview-label">View bundle</span>
             </button>
             <div class="card-body">
               <h3>NSE Finals 2026</h3>
-              <p>Huge thanks to Gin Rai and NTU for inviting me to photograph the NSE British University Esports Championship Finals at Confetti X. It was amazing seeing the behind-the-scenes work that made the event possible, from production to coordination. Despite a few challenges, the students handled everything professionally and delivered a fantastic event everyone should be proud of.</p>
+              <p>Huge thanks to Gin Rai and NTU for inviting me to photograph the behind-the-scenes production at the NSE British University Esports Championship Finals at Confetti X. This collection captures the crew, broadcast setup, and pre-show coordination—more production life than competitive play.</p>
+            </div>
+          </article>
+
+          <article class="card bundle-card" data-category="events">
+            <button class="bundle-preview" type="button" data-bundle="outdoors-friends" aria-label="Open Outdoors & Friends bundle slideshow">
+              <div class="preview-stack">
+                <img data-src="images/Personal Images/cachedImage2.png" alt="Outdoor friends photoshoot" class="preview-image image-1" />
+                <img data-src="images/Personal Images/P1070654.jpg" alt="Some dogos outside" class="preview-image image-2" />
+                <img data-src="images/Personal Images/P1070659.jpg" alt="Some dogos outside" class="preview-image image-3" />
+              </div>
+              <span class="preview-label">View bundle</span>
+            </button>
+            <div class="card-body">
+              <h3>Outdoors & Friends</h3>
+              <p>A simple photo bundle for outdoor moments with friends. I’ll keep adding more images here as the collection grows.</p>
             </div>
           </article>
         </div>

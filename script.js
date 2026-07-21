@@ -1,5 +1,6 @@
 const filterButtons = document.querySelectorAll('.filter-btn');
 const cards = document.querySelectorAll('.card');
+const filterMessage = document.getElementById('filter-message');
 const year = document.getElementById('year');
 const lightbox = document.getElementById('lightbox');
 const lightboxImage = document.getElementById('lightbox-image');
@@ -81,31 +82,85 @@ const bundleData = {
   },
   'nse-finals': {
     title: 'NSE Finals 2026',
-    description: 'Huge thanks to Gin Rai and NTU for inviting me to photograph the NSE British University Esports Championship Finals at Confetti X. It was amazing seeing the behind-the-scenes work that made the event possible, from production to coordination. Despite a few challenges, the students handled everything professionally and delivered a fantastic event everyone should be proud of.',
+    description: 'Huge thanks to Gin Rai and NTU for inviting me to photograph the behind-the-scenes production at the NSE British University Esports Championship Finals at Confetti X. This set showcases the crew, broadcast setup, and event coordination, rather than the tournament matches themselves.',
     images: [
-      {
-        src: 'images/nse/P1079980.JPG',
-        alt: 'Main crew at NSE British University Esports Championship Finals'
+      { src: 'images/nse/NSE_Photots_0003_P1069237.jpg', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1023675.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1023745.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1024018.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1024035.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1024097.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1024115.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1024137.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1024146.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1024187.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1024360.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1024394.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1024415.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1034592.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1068301.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1068468.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1068773.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1068804.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1068827.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1069068.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1069190.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1069291 (1).JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1079317.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1079348.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1079393.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1079565.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1079647.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1079723.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1079789.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1079846.JPG', alt: 'NSE behind-the-scenes production photo' },
+      { src: 'images/nse/P1079980.JPG', alt: 'NSE behind-the-scenes production photo' }
+    ]
+  },
+  'outdoors-friends': {
+    title: 'Outdoors & Friends',
+    description: 'A simple photo bundle for outdoor moments with friends. More images will be added over time to keep this collection growing.',
+    images: [
+            {
+        src: 'images/Personal Images/cachedImage2.png',
+        alt: 'Friends enjoying a relaxed outdoor hangout'
       },
       {
-        src: 'images/nse/P1024097.JPG',
-        alt: 'Bright event lighting and stage presentation at Confetti X'
+        src: 'images/Personal Images/P1070287.JPG',
+        alt: 'Friend coming over to enjoy a game of Pool'
       },
       {
-        src: 'images/nse/P1024394.JPG',
-        alt: 'A dramatic moment from the live esports finals'
+        src: 'images/Personal Images/P1033929.JPG',
+        alt: 'Friend taking a moment to enjoy and relax'
       },
       {
-        src: 'images/nse/P1024415.JPG',
-        alt: 'Behind-the-scenes production coordination during the finals'
+        src: 'images/Personal Images/P1033931.JPG',
+        alt: 'Friend taking a moment to enjoy and relax'
+
       },
       {
-        src: 'images/nse/P1034592.JPG',
-        alt: 'Team members preparing in the event venue'
+        src: 'images/Personal Images/P1033936.JPG',
+        alt: 'Friend taking a moment to enjoy and relax'
       },
       {
-        src: 'images/nse/P1068301.JPG',
-        alt: 'Event crew monitoring broadcast and technical systems'
+        src: 'images/Personal Images/P1033862.JPG',
+        alt: 'Buddies capturing a relaxed street moment'
+      },
+      {
+        src: 'images/Personal Images/P1023789.JPG',
+        alt: 'Friends sitting together outdoors'
+      },
+      {
+        src: 'images/Personal Images/cachedImage.png',
+        alt: 'Outdoor portrait with natural light'
+      },
+      {
+        src: 'images/Personal Images/cachedImage1.png',
+        alt: 'Candid outdoor moment with friends'
+      },
+      {
+        src: 'images/Personal Images/P1070258.JPG',
+        alt: 'Outdoor friends photoshoot'
       }
     ]
   }
@@ -123,6 +178,15 @@ protectedImages.forEach((img) => {
   if (src) {
     img.setAttribute('src', src);
   }
+
+  img.addEventListener('load', () => {
+    if (img.naturalWidth === 4000 && img.naturalHeight === 6000) {
+      img.classList.add('fit-large');
+    }
+
+    img.style.width = '100%';
+    img.style.height = '100%';
+  });
 });
 
 document.addEventListener('contextmenu', (event) => {
@@ -138,11 +202,23 @@ filterButtons.forEach((button) => {
 
     const filter = button.dataset.filter;
 
+    let hasVisibleCards = false;
+
     cards.forEach((card) => {
       const category = card.dataset.category;
       const matches = filter === 'all' || category === filter;
       card.style.display = matches ? 'block' : 'none';
+
+      if (matches) {
+        hasVisibleCards = true;
+      }
     });
+
+    if (filter === 'sports' && !hasVisibleCards) {
+      filterMessage.classList.add('show');
+    } else {
+      filterMessage.classList.remove('show');
+    }
   });
 });
 

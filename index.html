@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CJ Eclipsed | Esports & Sports Photography</title>
+    <meta
+      name="description"
+      content="A modern photography portfolio for esports and sports events."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <a class="brand" href="#top">CJ Eclipsed</a>
+        <div class="nav-links">
+          <a href="#gallery">Gallery</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="container hero-content" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">Esports & Sports Events</p>
+          <h1>Capturing the energy of competition in every frame.</h1>
+          <p class="hero-text">
+            I am an Esports Production student at Nottingham Trent University with experience across esports, competitive sports, event production, officiating, photography, and videography.
+          </p>
+          <a class="button primary" href="#gallery">View Event Bundles</a>
+        </div>
+
+        <div class="hero-card">
+          <img
+            data-src="images/PhotosCJ/portrait.jpg"
+            alt="Photographer portrait"
+            class="hero-photo"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="gallery" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">Event Bundles</p>
+          <h2>Preview a full event story at a glance</h2>
+        </div>
+
+        <div class="filters" aria-label="Gallery filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="esports">Esports</button>
+          <button class="filter-btn" data-filter="sports">Sports</button>
+          <button class="filter-btn" data-filter="events">Events</button>
+        </div>
+
+        <div class="gallery-grid">
+          <article class="card bundle-card" data-category="esports">
+            <button class="bundle-preview" type="button" data-bundle="sparkout" aria-label="Open SparkOut bundle slideshow">
+              <div class="preview-stack">
+                <img data-src="images/sparkout/Sparkout Crew.jpg" alt="Sparkout crew behind the scenes" class="preview-image image-1" />
+                <img data-src="images/sparkout/Audience.jpg" alt="Audience watching the event" class="preview-image image-2" />
+                <img data-src="images/sparkout/Casters.jpg" alt="Casters commentating the match" class="preview-image image-3" />
+              </div>
+              <span class="preview-label">View bundle</span>
+            </button>
+            <div class="card-body">
+              <h3>SparkOut - 2026</h3>
+              <p>Third-year students at Nottingham Trent University hosted their Capstone Project event to help showcase their work and support their journey into the industry. Huge thank you to Marcel Kajut for inviting me to photograph Sparkout 2026. It was an amazing event with a great atmosphere, where everyone involved — both attendees and organisers — clearly enjoyed the experience.</p>
+            </div>
+          </article>
+
+          <article class="card bundle-card" data-category="sports">
+            <button class="bundle-preview" type="button" data-bundle="motorsport-uk" aria-label="Open Motorsport UK bundle slideshow">
+              <div class="preview-stack">
+                <img data-src="images/motorsport/1.svg" alt="Athlete sprinting toward the finish line" class="preview-image image-1" />
+                <img data-src="images/motorsport/2.svg" alt="Fans celebrating after a big play" class="preview-image image-2" />
+                <img data-src="images/motorsport/3.svg" alt="Sports action during a tense game" class="preview-image image-3" />
+              </div>
+              <span class="preview-label">View bundle</span>
+            </button>
+            <div class="card-body">
+              <h3>Motorsport UK 2026</h3>
+              <p>Sports • Event coverage bundle</p>
+            </div>
+          </article>
+
+          <article class="card bundle-card" data-category="events">
+            <button class="bundle-preview" type="button" data-bundle="nse-finals" aria-label="Open NSE Finals bundle slideshow">
+              <div class="preview-stack">
+                <img data-src="images/nse/1.svg" alt="Crowd packed into an arena before the event starts" class="preview-image image-1" />
+                <img data-src="images/nse/2.svg" alt="Bright stadium lights and audience excitement" class="preview-image image-2" />
+                <img data-src="images/nse/3.svg" alt="A dramatic moment from the live event" class="preview-image image-3" />
+              </div>
+              <span class="preview-label">View bundle</span>
+            </button>
+            <div class="card-body">
+              <h3>NSE Finals 2026</h3>
+              <p>Events • Event coverage bundle</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="container about-grid">
+          <div>
+            <p class="eyebrow">About</p>
+            <h2>I capture the heartbeat of competition.</h2>
+            
+            <p>
+              I also bring several years of experience within basketball and British Wheelchair Basketball as both a referee and table official across local, national, and international events, helping me develop strong leadership, communication, teamwork, and decision-making skills in high-pressure environments.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>What I cover</h3>
+            <ul>
+              <li>Esports tournaments and live events</li>
+              <li>Sports matches and team action</li>
+              <li>Behind-the-scenes production moments</li>
+              <li>Photography, videography, and event media</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section id="contact" class="section container contact-section">
+      <div class="contact-box">
+        <p class="eyebrow">Let’s connect</p>
+        <h2>Interested in booking coverage or viewing more work?</h2>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:atherley.connor@gmail.com">atherley.connor@gmail.com</a>
+          <a class="button secondary" href="https://linktr.ee/Eclipsed_Starss" target="_blank" rel="noreferrer">Linktree</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> CJ Eclipsed. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close slideshow">×</button>
+      <button class="lightbox-nav prev" id="lightbox-prev" type="button" aria-label="Previous slide">‹</button>
+      <div class="lightbox-content">
+        <img id="lightbox-image" data-src="" alt="" />
+        <div class="lightbox-caption">
+          <h3 id="lightbox-title"></h3>
+          <p id="lightbox-description"></p>
+        </div>
+      </div>
+      <button class="lightbox-nav next" id="lightbox-next" type="button" aria-label="Next slide">›</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

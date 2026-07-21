@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#111827"/>
+  <rect x="90" y="90" width="1020" height="620" rx="30" fill="#0f172a" stroke="#c19eea" stroke-width="6"/>
+  <rect x="220" y="200" width="320" height="240" rx="20" fill="#38bdf8" opacity="0.95"/>
+  <rect x="620" y="220" width="240" height="220" rx="18" fill="#f59e0b" opacity="0.9"/>
+  <text x="120" y="730" fill="#f8fafc" font-family="Arial, sans-serif" font-size="42">Arena Crowd</text>
+</svg>

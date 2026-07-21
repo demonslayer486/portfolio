@@ -40,37 +40,72 @@ const bundleData = {
   },
   'motorsport-uk': {
     title: 'Motorsport UK 2026',
-    description: 'Momentum, celebration, and the pressure of a decisive sports final.',
+    description: 'I was invited by Roman, a third-year NTU Esports Production student, to photograph their Capstone Project, Motorsport UK. At the time, I was still new to photography and videography and unsure where to start. Being invited gave me the confidence boost I needed and helped me move onto other projects, allowing me to grow and showcase my passion for photography and videography. This bundle also highlights the broadcast team, including casters and analysts Tom Knight and Adam Reid, along with the event observers and production crew.',
     images: [
       {
-        src: 'images/motorsport/1.svg',
-        alt: 'Athlete sprinting toward the finish line'
+        src: 'images/motorsport/Main Crew.JPG',
+        alt: 'Main crew at Motorsport UK event',
+        caption: 'Main crew from the Motorsport UK Capstone Project, photographed after being invited by Roman to capture the event story and production energy.'
       },
       {
-        src: 'images/motorsport/2.svg',
-        alt: 'Fans celebrating after a big play'
+        src: 'images/motorsport/Caster and Anylist.JPG',
+        alt: 'Casters and analysts Tom Knight and Adam Reid at Motorsport UK',
+        caption: 'Casters and analysts <a href="https://www.linkedin.com/in/tom-knight-414140360/" target="_blank" rel="noreferrer">Tom Knight</a> and <a href="https://www.linkedin.com/in/adam-reid-40022525a/" target="_blank" rel="noreferrer">Adam Reid</a> bringing the event story to life through commentary and broadcast direction.'
       },
       {
-        src: 'images/motorsport/3.svg',
-        alt: 'Sports action during a tense game'
+        src: 'images/motorsport/Casters.JPG',
+        alt: 'Casters commentating the event at Motorsport UK'
+      },
+      {
+        src: 'images/motorsport/Casters 2.JPG',
+        alt: 'Additional caster team members at the Motorsport UK desk'
+      },
+      {
+        src: 'images/motorsport/Obsurver.JPG',
+        alt: 'Observers watching the Motorsport UK broadcast and event systems'
+      },
+      {
+        src: 'images/motorsport/Setting up Obseruver.JPG',
+        alt: 'Observer setup during Motorsport UK production'
+      },
+      {
+        src: 'images/motorsport/Soundboard.JPG',
+        alt: 'Soundboard and production desk at Motorsport UK'
+      },
+      {
+        src: 'images/motorsport/Funny meme.JPG',
+        alt: 'Crew joking together as the event wrapped up',
+        caption: 'As the event wrapped up, the crew were teasing one another, and I captured the moment I joked that one of their trouser zips was down to distract them.'
       }
     ]
   },
   'nse-finals': {
     title: 'NSE Finals 2026',
-    description: 'The atmosphere, scale, and excitement of a packed live event.',
+    description: 'Huge thanks to Gin Rai and NTU for inviting me to photograph the NSE British University Esports Championship Finals at Confetti X. It was amazing seeing the behind-the-scenes work that made the event possible, from production to coordination. Despite a few challenges, the students handled everything professionally and delivered a fantastic event everyone should be proud of.',
     images: [
       {
-        src: 'images/nse/1.svg',
-        alt: 'Crowd packed into an arena before the event starts'
+        src: 'images/nse/P1079980.JPG',
+        alt: 'Main crew at NSE British University Esports Championship Finals'
       },
       {
-        src: 'images/nse/2.svg',
-        alt: 'Bright stadium lights and audience excitement'
+        src: 'images/nse/P1024097.JPG',
+        alt: 'Bright event lighting and stage presentation at Confetti X'
       },
       {
-        src: 'images/nse/3.svg',
-        alt: 'A dramatic moment from the live event'
+        src: 'images/nse/P1024394.JPG',
+        alt: 'A dramatic moment from the live esports finals'
+      },
+      {
+        src: 'images/nse/P1024415.JPG',
+        alt: 'Behind-the-scenes production coordination during the finals'
+      },
+      {
+        src: 'images/nse/P1034592.JPG',
+        alt: 'Team members preparing in the event venue'
+      },
+      {
+        src: 'images/nse/P1068301.JPG',
+        alt: 'Event crew monitoring broadcast and technical systems'
       }
     ]
   }
